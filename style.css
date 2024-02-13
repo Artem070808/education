@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: #fff;
+}
+
+header .logo {
+    font-size: 30px;
+    color: #eaeaea;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8%;
+}
+
+header nav ul li {
+    position: relative;
+    float: left;
+}
+
+header nav ul li a {
+    padding: 15px;
+    color: #fff;
+    font-size: 25px;
+    display: block;
+    transition: 0.3s;
+}
+
+header nav ul li a:hover {
+    background: #fff;
+    color: #000;
+}
+
+nav ul li ul {
+    position: absolute;
+    left: 0;
+    width: 180px;
+    background: #000;
+    display: none;
+}
+
+nav ul li ul li {
+    width: 100%;
+    border: 1px solid rgba(255,255,255,.1);
+}
+
+nav ul li:hover > ul {
+    display: initial;
+}
+
+.home-content {
+    position: relative;
+    font-size: 20px;
+    color: #000;
+    max-width: 1200px;
+}
+
+.home {
+    
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 8% 0;
+    overflow: hidden;
+}
+
+
+.home-content h1 {
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+.home-content h3 {
+    font-size: 40px;
+    color: #454bff;
+}
+
+.home-content span {
+    color: #454bff;
+    font-weight: 700;
+}
+
+.home-content p {
+    font-size: 20px;
+    margin: 5px 0 5px;
+    
+}
+
+.social-media {
+    width: 150px;
+    height: 40px;
+    position: relative;
+    top: 110px;
+    right: 940px;
+}
+
+.social-media a {
+    padding: 10px;
+    display: inline-flex;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid transparent;
+    text-decoration: none;
+    align-items: center;
+    transform: rotate(45deg);
+    transition: .3s;
+}
+
+.social-media a:hover {
+    border-color: red;
+}
+
+.social-media a i {
+    font-size: 24px;
+    color: black;
+    transform: rotate(-45deg);
+}
+
+.home-img {
+    position: relative;
+    right: -7%;
+    width: 450px;
+    height: 450px;
+    transform: rotate(45deg);
+}
+
+.home-img .rhombus {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #eaeaea;
+    border: 25px solid #000;
+    display: flex;
+}
+
+.container {
+    margin: 0 166px;
+}
+
+.cards-holder {
+    display: flex;
+    justify-content: center;
+    о
+}
+
+.card { 
+    width: 349px;
+    box-shadow: 10px 10px 20px 20px #0000001A;
+    margin-right: 31px;
+    background-color: #fff;
+    margin-top: -250px;
+    padding: 0px 10px;
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+    padding-top: 31px; 
+}
+
+.card-title {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.card-text {
+    text-align: center;
+    justify-content: center;
+}
+
+.konec-title {
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    padding-top: 15px;
+}
+
+.konec-text {
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    width: 444px;
+}
+
+.konec-title span {
+    color: brown;
+}
